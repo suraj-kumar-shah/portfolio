@@ -10,7 +10,7 @@ import {
   Server,
 } from "lucide-react";
 
-
+// ✅ Import photo
 import shivPhoto from "../shiv-photo.jpeg";
 
 const containerVariants = {
@@ -76,7 +76,8 @@ export const Hero = () => {
               variants={itemVariants}
               className="text-lg text-gray-400 max-w-xl mb-10"
             >
-              Shiv Kumar B.Tech CSE{" "}
+              I bridge the gap between development and operations. B.Tech Computer
+              Science Engineer specializing in{" "}
               <span className="text-white">Cloud Infrastructure</span>,{" "}
               <span className="text-white">Automation</span>, and{" "}
               <span className="text-white">Scalable Systems</span>.
@@ -86,8 +87,10 @@ export const Hero = () => {
               variants={itemVariants}
               className="flex flex-wrap gap-4 justify-center lg:justify-start"
             >
+              {/* ✅ Resume Download Button */}
               <a
-                href="/resume.pdf"
+                href="https://drive.google.com/file/d/1DofU6YvNAxqB_32ehF-nFNuegTB2IkSP/view?usp=sharing"
+                download="Shiv-Kumar-Resume.pdf"
                 className="px-8 py-4 bg-gradient-to-r from-cyan-600 to-blue-600 rounded-xl text-white font-semibold hover:scale-105 transition"
               >
                 <span className="flex items-center gap-2">
@@ -95,9 +98,21 @@ export const Hero = () => {
                 </span>
               </a>
 
-              <SocialButton href="https://github.com" icon={<Github size={20} />} label="GitHub" />
-              <SocialButton href="https://linkedin.com" icon={<Linkedin size={20} />} label="LinkedIn" />
-              <SocialButton href="mailto:contact@example.com" icon={<Mail size={20} />} label="Email" />
+              <SocialButton
+                href="https://github.com/shivvvk"
+                icon={<Github size={20} />}
+                label="GitHub"
+              />
+              <SocialButton
+                href="https://linkedin.com/in/shiv-kumar7"
+                icon={<Linkedin size={20} />}
+                label="LinkedIn"
+              />
+              <SocialButton
+                href="shivk50976@gmail.com"
+                icon={<Mail size={20} />}
+                label="Email"
+              />
             </motion.div>
 
             <motion.div
@@ -118,26 +133,21 @@ export const Hero = () => {
             className="lg:w-1/2 flex justify-center"
           >
             <div className="relative animate-float">
-              {/* Glow */}
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-[2rem] blur-2xl opacity-40" />
 
-              {/* Image Card */}
               <div className="relative w-72 h-80 md:w-80 md:h-96 rounded-[2rem] overflow-hidden border border-white/10 shadow-2xl">
                 <img
                   src={shivPhoto}
-                  alt="Profile"
+                  alt="Shiv Kumar"
                   className="w-full h-full object-cover"
                 />
 
-                {/* Dark Overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
 
-                {/* 🔥 Text Badge */}
+                {/* Badge */}
                 <div className="absolute bottom-6 left-1/2 -translate-x-1/2 w-[85%]">
                   <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl px-5 py-4 shadow-lg">
-                    <p className="text-white text-lg font-bold">
-                       Shiv Kumar
-                    </p>
+                    <p className="text-white text-lg font-bold">Shiv Kumar</p>
                     <p className="text-cyan-300 text-sm font-medium">
                       B.Tech CSE
                     </p>
@@ -152,7 +162,7 @@ export const Hero = () => {
   );
 };
 
-/* ---------- Reusable Components ---------- */
+/* ---------- Components ---------- */
 
 const SocialButton = ({
   href,

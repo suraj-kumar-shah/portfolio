@@ -5,8 +5,8 @@ import { Github, ExternalLink, Server, Cloud, Layers, Code, ArrowUpRight } from 
 const projects = [
   {
     id: 1,
-    title: "Enterprise CI/CD Pipeline",
-    category: "DevOps Automation",
+    title: "E - Commerce Dashboard",
+    category: "Real Business Problem",
     description: "Architected a fully automated CI/CD pipeline reducing deployment time by 60%. Integrated Jenkins for orchestration, Docker for containerization, and AWS CodeDeploy for zero-downtime releases.",
     image: "https://images.unsplash.com/photo-1667372393119-c81c0cda0c29?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZXZvcHMlMjBwaXBlbGluZXxlbnwxfHx8fDE3NzA1NjAwMDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
     tech: ["Jenkins", "Docker", "AWS EC2", "Bash"],
@@ -14,8 +14,8 @@ const projects = [
   },
   {
     id: 2,
-    title: "Terraform Cloud Infra",
-    category: "Infrastructure as Code",
+    title: "Cloud-Based Task Manager",
+    category: "CRUD Operations",
     description: "Developed modular Terraform scripts to provision a highly available multi-tier architecture on AWS. Included VPCs, private subnets, NAT gateways, and auto-scaling groups.",
     image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjbG91ZCUyMGlucmZhc3RydWN0dXJlfGVufDF8fHx8MTc3MDU2MDAwMHww&ixlib=rb-4.1.0&q=80&w=1080",
     tech: ["Terraform", "AWS", "IAM", "Security Groups"],
@@ -23,8 +23,8 @@ const projects = [
   },
   {
     id: 3,
-    title: "Kubernetes Monitoring Suite",
-    category: "Container Orchestration",
+    title: "Cloud Resume Challenge",
+    category: "Infrastructure as Code",
     description: "Deployed a microservices app on EKS with a custom monitoring stack. Configured Prometheus for metrics scraping and Grafana for visualizing cluster health and pod resource usage.",
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb25pdG9yaW5nJTIwZGFzaGJvYXJkfGVufDF8fHx8MTc3MDU2MDAwMHww&ixlib=rb-4.1.0&q=80&w=1080",
     tech: ["Kubernetes", "Prometheus", "Grafana", "Helm"],

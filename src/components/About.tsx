@@ -107,7 +107,7 @@ export const About = () => {
                     </div>
                     <h4 className="text-gray-400 text-xs uppercase tracking-widest font-bold mb-2">Experience</h4>
                     <h5 className="text-xl font-bold text-white mb-1">Cloud & DevOps Intern</h5>
-                    <p className="text-purple-400 text-sm font-medium mb-4">XYZ Technologies</p>
+                    <p className="text-purple-400 text-sm font-medium mb-4">Self-Employed | Remote</p>
                     <div className="flex items-center gap-2">
                          <div className="h-2 w-2 rounded-full bg-green-500 animate-pulse"></div>
                          <p className="text-gray-500 text-sm">Currently Active</p>

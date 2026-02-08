@@ -27,7 +27,7 @@ export const Experience = () => {
                     
                     <div className="md:flex items-start gap-6 bg-[#0a1025] p-8 rounded-xl border border-white/10 hover:border-cyan-500/30 transition-all">
                         <div className="hidden md:flex flex-col items-center justify-center w-32 flex-shrink-0 border-r border-white/10 pr-6">
-                            <span className="text-4xl font-bold text-cyan-500/20">2023</span>
+                            <span className="text-4xl font-bold text-cyan-500/20">2025</span>
                             <span className="text-sm text-cyan-400 mt-1">Present</span>
                         </div>
                         
@@ -36,7 +36,7 @@ export const Experience = () => {
                                 <h3 className="text-xl font-bold text-white">Cloud & DevOps Intern</h3>
                                 <span className="md:hidden text-xs font-medium text-cyan-400 bg-cyan-900/20 px-2 py-1 rounded">2023 - Present</span>
                             </div>
-                            <h4 className="text-lg text-gray-400 mb-4 font-medium">XYZ Technologies</h4>
+                            <h4 className="text-lg text-gray-400 mb-4 font-medium">Self-Employed | Remote</h4>
                             
                             <ul className="space-y-2 mb-4">
                                 <li className="flex items-start gap-2 text-gray-400 text-sm">

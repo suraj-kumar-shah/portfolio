@@ -34,10 +34,10 @@ export const Navbar = () => {
       <div className="container mx-auto px-6 flex justify-between items-center">
         <a href="#home" className="flex items-center gap-2 group">
           <div className="w-10 h-10 bg-gradient-to-br from-cyan-500 to-violet-600 rounded-lg flex items-center justify-center text-white font-bold text-xl group-hover:shadow-[0_0_20px_rgba(139,92,246,0.5)] transition-all duration-300">
-            D
+            Sk
           </div>
           <span className="text-xl font-bold tracking-tight text-white group-hover:text-cyan-400 transition-colors">
-            DEV<span className="text-gray-500">.OPS</span>
+            PORTFOLIO<span className="text-gray-500"></span>
           </span>
         </a>
 
